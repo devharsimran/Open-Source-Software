@@ -1,3 +1,4 @@
+# Program to demonstrate the working of Support Vector Machines on IRIS dataset
 from sklearn.svm import LinearSVC
 from matplotlib import pyplot as plt
 from sklearn.datasets import load_iris()
