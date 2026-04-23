@@ -1,10 +1,10 @@
 from sklearn.svm import LinearSVC
 from matplotlib import pyplot as plt
-from sklearn import datasets
+from sklearn.datasets import load_iris()
 from sklearn.preprocessing import StandardScaler
 import numpy as np
 # Load data with only two classes and two features
-iris = datasets.load_iris()
+iris = load_iris()
 features = iris.data[:100,:2]
 target = iris.target[:100]
 # Standardize features
